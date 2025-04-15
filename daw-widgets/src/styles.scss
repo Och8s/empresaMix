@@ -1,16 +1,12 @@
-// Primero importamos Bootstrap usando @use
-@use "../node_modules/bootstrap/scss/bootstrap" as *;
+$primary: #9dc1dc; 
+$secondary: #595a5b; 
 
-// Ahora definimos tus colores personalizados
-$primary: #9dc1dc;
-$secondary: #595a5b;
+@import "../node_modules/bootstrap/scss/bootstrap";
 
-// Aplicamos el color al body
 body {
   background-color: $primary;
 }
 
-// Personalizamos los botones
 .btn-primary {
   background-color: $primary;
   border-color: $primary;
